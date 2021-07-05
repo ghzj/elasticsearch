@@ -196,6 +196,7 @@ public class IndicesService extends AbstractLifecycleComponent
     private final IndexScopedSettings indexScopedSettings;
     private final IndicesFieldDataCache indicesFieldDataCache;
     private final CacheCleaner cacheCleaner;
+    //自定义线程池管理器
     private final ThreadPool threadPool;
     private final CircuitBreakerService circuitBreakerService;
     private final BigArrays bigArrays;
